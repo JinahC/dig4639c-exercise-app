@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: 'Concert One', cursive;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+header {
+  background-color: #F500C8;
+  padding: 25px 0;
+}
+
+.main-menu--title {
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 47px;
+  margin: 0;
+}
+
+.main-menu--btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.main-menu--btn {
+  border: none;
+  background-color: transparent;
+  margin: 30px 40px 0;
+  cursor: pointer;
+}
+
+.main-menu--btn img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.main-menu--btn img[src*="running"] {
+  max-width: 320px;
+}
+
+.main-menu--btn h2 {
+  font-family: 'Concert One', cursive;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 39px;
+}
+
+.flex-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise--title {
+  font-size: 50px;
+  line-height: 39px;
+  margin-top: 55px;
+}
+
+.exercise--img {
+  max-width: 500px;
+  width: 100%;
+  display: block;
+  margin: 100px auto 80px;
+}
+
+img[src*="running"].exercise--img {
+  max-width: 320px;
+}
+
+.exercise--reps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.exercise--reps h3 {
+  font-size: 45px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.exercise--btn {
+  font-family: 'Concert One', cursive;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  font-size: 40px;
+  line-height: 31px;
+  width: 270px;
+  padding: 18px 30px;
+  border-radius: 27px;
+  margin: 0 13px 30px;
+}
+
+.exercise--btn:hover {
+  cursor: pointer;
+}
+
+.exercise--btn.red {
+  background-color: #F5004E;
+}
+
+.exercise--btn.pink {
+  background-color: #F500C8;
+}
+
+.exercise--btn.purple {
+  background-color: #A700F5;
+}
+
+.exercise--reps button{
+  border-radius: 50%;
+  font-size: 58px;
+  line-height: 40px;
+  margin: 0;
+  width: auto;
+  padding: 10px 15px;
+}
+
+.exercise--timer {
+  font-size: 45px;
+  line-height: 35px;
+  margin: 30px;
+}
